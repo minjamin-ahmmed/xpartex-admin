@@ -1,3 +1,4 @@
+import { title } from "process";
 import * as Icons from "../icons";
 
 export const NAV_DATA = [
@@ -60,6 +61,18 @@ export const NAV_DATA = [
             url: "/pages/settings",
           },
         ],
+      },
+      {
+        title: "Vendors",
+        url: "/vendors",
+        icon: Icons.User,
+        items: [],
+      },
+      {
+        title: "Products",
+        url: "/products",
+        icon: Icons.User,
+        items: [],
       },
     ],
   },

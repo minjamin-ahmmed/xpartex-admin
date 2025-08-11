@@ -1,0 +1,1796 @@
+{
+  "path": ".",
+  "name": ".",
+  "children": [
+    {
+      "path": ".eslintrc.json",
+      "name": ".eslintrc.json"
+    },
+    {
+      "path": ".git",
+      "name": ".git",
+      "children": [
+        {
+          "path": ".git\\config",
+          "name": "config"
+        },
+        {
+          "path": ".git\\description",
+          "name": "description"
+        },
+        {
+          "path": ".git\\HEAD",
+          "name": "HEAD"
+        },
+        {
+          "path": ".git\\hooks",
+          "name": "hooks",
+          "children": [
+            {
+              "path": ".git\\hooks\\applypatch-msg.sample",
+              "name": "applypatch-msg.sample"
+            },
+            {
+              "path": ".git\\hooks\\commit-msg.sample",
+              "name": "commit-msg.sample"
+            },
+            {
+              "path": ".git\\hooks\\fsmonitor-watchman.sample",
+              "name": "fsmonitor-watchman.sample"
+            },
+            {
+              "path": ".git\\hooks\\post-update.sample",
+              "name": "post-update.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-applypatch.sample",
+              "name": "pre-applypatch.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-commit.sample",
+              "name": "pre-commit.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-merge-commit.sample",
+              "name": "pre-merge-commit.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-push.sample",
+              "name": "pre-push.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-rebase.sample",
+              "name": "pre-rebase.sample"
+            },
+            {
+              "path": ".git\\hooks\\pre-receive.sample",
+              "name": "pre-receive.sample"
+            },
+            {
+              "path": ".git\\hooks\\prepare-commit-msg.sample",
+              "name": "prepare-commit-msg.sample"
+            },
+            {
+              "path": ".git\\hooks\\push-to-checkout.sample",
+              "name": "push-to-checkout.sample"
+            },
+            {
+              "path": ".git\\hooks\\sendemail-validate.sample",
+              "name": "sendemail-validate.sample"
+            },
+            {
+              "path": ".git\\hooks\\update.sample",
+              "name": "update.sample"
+            }
+          ]
+        },
+        {
+          "path": ".git\\index",
+          "name": "index"
+        },
+        {
+          "path": ".git\\info",
+          "name": "info",
+          "children": [
+            {
+              "path": ".git\\info\\exclude",
+              "name": "exclude"
+            }
+          ]
+        },
+        {
+          "path": ".git\\logs",
+          "name": "logs",
+          "children": [
+            {
+              "path": ".git\\logs\\HEAD",
+              "name": "HEAD"
+            },
+            {
+              "path": ".git\\logs\\refs",
+              "name": "refs",
+              "children": [
+                {
+                  "path": ".git\\logs\\refs\\heads",
+                  "name": "heads",
+                  "children": [
+                    {
+                      "path": ".git\\logs\\refs\\heads\\main",
+                      "name": "main"
+                    }
+                  ]
+                },
+                {
+                  "path": ".git\\logs\\refs\\remotes",
+                  "name": "remotes",
+                  "children": [
+                    {
+                      "path": ".git\\logs\\refs\\remotes\\origin",
+                      "name": "origin",
+                      "children": [
+                        {
+                          "path": ".git\\logs\\refs\\remotes\\origin\\HEAD",
+                          "name": "HEAD"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": ".git\\objects",
+          "name": "objects",
+          "children": [
+            {
+              "path": ".git\\objects\\info",
+              "name": "info",
+              "children": []
+            },
+            {
+              "path": ".git\\objects\\pack",
+              "name": "pack",
+              "children": [
+                {
+                  "path": ".git\\objects\\pack\\pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.idx",
+                  "name": "pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.idx"
+                },
+                {
+                  "path": ".git\\objects\\pack\\pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.pack",
+                  "name": "pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.pack"
+                },
+                {
+                  "path": ".git\\objects\\pack\\pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.rev",
+                  "name": "pack-5679c3db93a3304c63dc40b519ee02aa228d4e04.rev"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": ".git\\packed-refs",
+          "name": "packed-refs"
+        },
+        {
+          "path": ".git\\refs",
+          "name": "refs",
+          "children": [
+            {
+              "path": ".git\\refs\\heads",
+              "name": "heads",
+              "children": [
+                {
+                  "path": ".git\\refs\\heads\\main",
+                  "name": "main"
+                }
+              ]
+            },
+            {
+              "path": ".git\\refs\\remotes",
+              "name": "remotes",
+              "children": [
+                {
+                  "path": ".git\\refs\\remotes\\origin",
+                  "name": "origin",
+                  "children": [
+                    {
+                      "path": ".git\\refs\\remotes\\origin\\HEAD",
+                      "name": "HEAD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": ".git\\refs\\tags",
+              "name": "tags",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "name": ".gitignore"
+    },
+    {
+      "path": ".prettierrc",
+      "name": ".prettierrc"
+    },
+    {
+      "path": "bun.lock",
+      "name": "bun.lock"
+    },
+    {
+      "path": "generate-structure.js",
+      "name": "generate-structure.js"
+    },
+    {
+      "path": "jsvectormap.d.ts",
+      "name": "jsvectormap.d.ts"
+    },
+    {
+      "path": "next-env.d.ts",
+      "name": "next-env.d.ts"
+    },
+    {
+      "path": "next.config.mjs",
+      "name": "next.config.mjs"
+    },
+    {
+      "path": "package-lock.json",
+      "name": "package-lock.json"
+    },
+    {
+      "path": "package.json",
+      "name": "package.json"
+    },
+    {
+      "path": "postcss.config.js",
+      "name": "postcss.config.js"
+    },
+    {
+      "path": "public",
+      "name": "public",
+      "children": [
+        {
+          "path": "public\\images",
+          "name": "images",
+          "children": [
+            {
+              "path": "public\\images\\best-value-banner.png",
+              "name": "best-value-banner.png"
+            },
+            {
+              "path": "public\\images\\brand",
+              "name": "brand",
+              "children": [
+                {
+                  "path": "public\\images\\brand\\brand-01.svg",
+                  "name": "brand-01.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-02.svg",
+                  "name": "brand-02.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-03.svg",
+                  "name": "brand-03.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-04.svg",
+                  "name": "brand-04.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-05.svg",
+                  "name": "brand-05.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-06.svg",
+                  "name": "brand-06.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-07.svg",
+                  "name": "brand-07.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-08.svg",
+                  "name": "brand-08.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-09.svg",
+                  "name": "brand-09.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-10.svg",
+                  "name": "brand-10.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-11.svg",
+                  "name": "brand-11.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-12.svg",
+                  "name": "brand-12.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-13.svg",
+                  "name": "brand-13.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-14.svg",
+                  "name": "brand-14.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-15.svg",
+                  "name": "brand-15.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-16.svg",
+                  "name": "brand-16.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-17.svg",
+                  "name": "brand-17.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-18.svg",
+                  "name": "brand-18.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-19.svg",
+                  "name": "brand-19.svg"
+                },
+                {
+                  "path": "public\\images\\brand\\brand-20.svg",
+                  "name": "brand-20.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\cards",
+              "name": "cards",
+              "children": [
+                {
+                  "path": "public\\images\\cards\\cards-01.png",
+                  "name": "cards-01.png"
+                },
+                {
+                  "path": "public\\images\\cards\\cards-02.png",
+                  "name": "cards-02.png"
+                },
+                {
+                  "path": "public\\images\\cards\\cards-03.png",
+                  "name": "cards-03.png"
+                },
+                {
+                  "path": "public\\images\\cards\\cards-04.png",
+                  "name": "cards-04.png"
+                },
+                {
+                  "path": "public\\images\\cards\\cards-05.png",
+                  "name": "cards-05.png"
+                },
+                {
+                  "path": "public\\images\\cards\\cards-06.png",
+                  "name": "cards-06.png"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\carousel",
+              "name": "carousel",
+              "children": [
+                {
+                  "path": "public\\images\\carousel\\carousel-01.jpg",
+                  "name": "carousel-01.jpg"
+                },
+                {
+                  "path": "public\\images\\carousel\\carousel-02.jpg",
+                  "name": "carousel-02.jpg"
+                },
+                {
+                  "path": "public\\images\\carousel\\carousel-03.jpg",
+                  "name": "carousel-03.jpg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\country",
+              "name": "country",
+              "children": [
+                {
+                  "path": "public\\images\\country\\country-01.svg",
+                  "name": "country-01.svg"
+                },
+                {
+                  "path": "public\\images\\country\\country-02.svg",
+                  "name": "country-02.svg"
+                },
+                {
+                  "path": "public\\images\\country\\country-03.svg",
+                  "name": "country-03.svg"
+                },
+                {
+                  "path": "public\\images\\country\\country-04.svg",
+                  "name": "country-04.svg"
+                },
+                {
+                  "path": "public\\images\\country\\country-05.svg",
+                  "name": "country-05.svg"
+                },
+                {
+                  "path": "public\\images\\country\\country-06.svg",
+                  "name": "country-06.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\cover",
+              "name": "cover",
+              "children": [
+                {
+                  "path": "public\\images\\cover\\cover-01.png",
+                  "name": "cover-01.png"
+                },
+                {
+                  "path": "public\\images\\cover\\cover-02.jpg",
+                  "name": "cover-02.jpg"
+                },
+                {
+                  "path": "public\\images\\cover\\cover-03.jpg",
+                  "name": "cover-03.jpg"
+                },
+                {
+                  "path": "public\\images\\cover\\cover-04.jpg",
+                  "name": "cover-04.jpg"
+                },
+                {
+                  "path": "public\\images\\cover\\cover-05.jpg",
+                  "name": "cover-05.jpg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\favicon.ico",
+              "name": "favicon.ico"
+            },
+            {
+              "path": "public\\images\\grids",
+              "name": "grids",
+              "children": [
+                {
+                  "path": "public\\images\\grids\\grid-01.svg",
+                  "name": "grid-01.svg"
+                },
+                {
+                  "path": "public\\images\\grids\\grid-02.svg",
+                  "name": "grid-02.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\icon",
+              "name": "icon",
+              "children": [
+                {
+                  "path": "public\\images\\icon\\icon-arrow-down.svg",
+                  "name": "icon-arrow-down.svg"
+                },
+                {
+                  "path": "public\\images\\icon\\icon-calendar.svg",
+                  "name": "icon-calendar.svg"
+                },
+                {
+                  "path": "public\\images\\icon\\icon-copy-alt.svg",
+                  "name": "icon-copy-alt.svg"
+                },
+                {
+                  "path": "public\\images\\icon\\icon-moon.svg",
+                  "name": "icon-moon.svg"
+                },
+                {
+                  "path": "public\\images\\icon\\icon-sun.svg",
+                  "name": "icon-sun.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\illustration",
+              "name": "illustration",
+              "children": [
+                {
+                  "path": "public\\images\\illustration\\illustration-01.svg",
+                  "name": "illustration-01.svg"
+                },
+                {
+                  "path": "public\\images\\illustration\\illustration-02.svg",
+                  "name": "illustration-02.svg"
+                },
+                {
+                  "path": "public\\images\\illustration\\illustration-03.svg",
+                  "name": "illustration-03.svg"
+                },
+                {
+                  "path": "public\\images\\illustration\\illustration-04.svg",
+                  "name": "illustration-04.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\logo",
+              "name": "logo",
+              "children": [
+                {
+                  "path": "public\\images\\logo\\logo-dark.svg",
+                  "name": "logo-dark.svg"
+                },
+                {
+                  "path": "public\\images\\logo\\logo-icon.svg",
+                  "name": "logo-icon.svg"
+                },
+                {
+                  "path": "public\\images\\logo\\logo.svg",
+                  "name": "logo.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\product",
+              "name": "product",
+              "children": [
+                {
+                  "path": "public\\images\\product\\product-01.png",
+                  "name": "product-01.png"
+                },
+                {
+                  "path": "public\\images\\product\\product-02.png",
+                  "name": "product-02.png"
+                },
+                {
+                  "path": "public\\images\\product\\product-03.png",
+                  "name": "product-03.png"
+                },
+                {
+                  "path": "public\\images\\product\\product-04.png",
+                  "name": "product-04.png"
+                },
+                {
+                  "path": "public\\images\\product\\product-thumb.png",
+                  "name": "product-thumb.png"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\task",
+              "name": "task",
+              "children": [
+                {
+                  "path": "public\\images\\task\\task-01.jpg",
+                  "name": "task-01.jpg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\team",
+              "name": "team",
+              "children": [
+                {
+                  "path": "public\\images\\team\\team-01.png",
+                  "name": "team-01.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-02.png",
+                  "name": "team-02.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-03.png",
+                  "name": "team-03.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-04.png",
+                  "name": "team-04.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-05.png",
+                  "name": "team-05.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-06.png",
+                  "name": "team-06.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-07.png",
+                  "name": "team-07.png"
+                },
+                {
+                  "path": "public\\images\\team\\team-08.png",
+                  "name": "team-08.png"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\todo",
+              "name": "todo",
+              "children": [
+                {
+                  "path": "public\\images\\todo\\dribble.svg",
+                  "name": "dribble.svg"
+                },
+                {
+                  "path": "public\\images\\todo\\linkdin.svg",
+                  "name": "linkdin.svg"
+                },
+                {
+                  "path": "public\\images\\todo\\uideck.svg",
+                  "name": "uideck.svg"
+                }
+              ]
+            },
+            {
+              "path": "public\\images\\user",
+              "name": "user",
+              "children": [
+                {
+                  "path": "public\\images\\user\\user-01.png",
+                  "name": "user-01.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-02.png",
+                  "name": "user-02.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-03.png",
+                  "name": "user-03.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-04.png",
+                  "name": "user-04.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-05.png",
+                  "name": "user-05.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-06.png",
+                  "name": "user-06.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-07.png",
+                  "name": "user-07.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-08.png",
+                  "name": "user-08.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-09.png",
+                  "name": "user-09.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-10.png",
+                  "name": "user-10.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-11.png",
+                  "name": "user-11.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-12.png",
+                  "name": "user-12.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-13.png",
+                  "name": "user-13.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-14.png",
+                  "name": "user-14.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-15.png",
+                  "name": "user-15.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-16.png",
+                  "name": "user-16.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-17.png",
+                  "name": "user-17.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-18.png",
+                  "name": "user-18.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-19.png",
+                  "name": "user-19.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-20.png",
+                  "name": "user-20.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-21.png",
+                  "name": "user-21.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-22.png",
+                  "name": "user-22.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-23.png",
+                  "name": "user-23.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-24.png",
+                  "name": "user-24.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-25.png",
+                  "name": "user-25.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-26.png",
+                  "name": "user-26.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-27.png",
+                  "name": "user-27.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-28.png",
+                  "name": "user-28.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-29.png",
+                  "name": "user-29.png"
+                },
+                {
+                  "path": "public\\images\\user\\user-30.png",
+                  "name": "user-30.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "name": "README.md"
+    },
+    {
+      "path": "src",
+      "name": "src",
+      "children": [
+        {
+          "path": "src\\app",
+          "name": "app",
+          "children": [
+            {
+              "path": "src\\app\\(home)",
+              "name": "(home)",
+              "children": [
+                {
+                  "path": "src\\app\\(home)\\fetch.ts",
+                  "name": "fetch.ts"
+                },
+                {
+                  "path": "src\\app\\(home)\\page.tsx",
+                  "name": "page.tsx"
+                },
+                {
+                  "path": "src\\app\\(home)\\_components",
+                  "name": "_components",
+                  "children": [
+                    {
+                      "path": "src\\app\\(home)\\_components\\chats-card.tsx",
+                      "name": "chats-card.tsx"
+                    },
+                    {
+                      "path": "src\\app\\(home)\\_components\\overview-cards",
+                      "name": "overview-cards",
+                      "children": [
+                        {
+                          "path": "src\\app\\(home)\\_components\\overview-cards\\card.tsx",
+                          "name": "card.tsx"
+                        },
+                        {
+                          "path": "src\\app\\(home)\\_components\\overview-cards\\icons.tsx",
+                          "name": "icons.tsx"
+                        },
+                        {
+                          "path": "src\\app\\(home)\\_components\\overview-cards\\index.tsx",
+                          "name": "index.tsx"
+                        },
+                        {
+                          "path": "src\\app\\(home)\\_components\\overview-cards\\skeleton.tsx",
+                          "name": "skeleton.tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "src\\app\\(home)\\_components\\region-labels",
+                      "name": "region-labels",
+                      "children": [
+                        {
+                          "path": "src\\app\\(home)\\_components\\region-labels\\index.tsx",
+                          "name": "index.tsx"
+                        },
+                        {
+                          "path": "src\\app\\(home)\\_components\\region-labels\\map.tsx",
+                          "name": "map.tsx"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\auth",
+              "name": "auth",
+              "children": [
+                {
+                  "path": "src\\app\\auth\\sign-in",
+                  "name": "sign-in",
+                  "children": [
+                    {
+                      "path": "src\\app\\auth\\sign-in\\page.tsx",
+                      "name": "page.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\calendar",
+              "name": "calendar",
+              "children": [
+                {
+                  "path": "src\\app\\calendar\\page.tsx",
+                  "name": "page.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\charts",
+              "name": "charts",
+              "children": [
+                {
+                  "path": "src\\app\\charts\\basic-chart",
+                  "name": "basic-chart",
+                  "children": [
+                    {
+                      "path": "src\\app\\charts\\basic-chart\\page.tsx",
+                      "name": "page.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\favicon.ico",
+              "name": "favicon.ico"
+            },
+            {
+              "path": "src\\app\\forms",
+              "name": "forms",
+              "children": [
+                {
+                  "path": "src\\app\\forms\\form-elements",
+                  "name": "form-elements",
+                  "children": [
+                    {
+                      "path": "src\\app\\forms\\form-elements\\page.tsx",
+                      "name": "page.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\app\\forms\\form-layout",
+                  "name": "form-layout",
+                  "children": [
+                    {
+                      "path": "src\\app\\forms\\form-layout\\page.tsx",
+                      "name": "page.tsx"
+                    },
+                    {
+                      "path": "src\\app\\forms\\form-layout\\_components",
+                      "name": "_components",
+                      "children": [
+                        {
+                          "path": "src\\app\\forms\\form-layout\\_components\\contact-form.tsx",
+                          "name": "contact-form.tsx"
+                        },
+                        {
+                          "path": "src\\app\\forms\\form-layout\\_components\\sign-in-form.tsx",
+                          "name": "sign-in-form.tsx"
+                        },
+                        {
+                          "path": "src\\app\\forms\\form-layout\\_components\\sign-up-form.tsx",
+                          "name": "sign-up-form.tsx"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\layout.tsx",
+              "name": "layout.tsx"
+            },
+            {
+              "path": "src\\app\\pages",
+              "name": "pages",
+              "children": [
+                {
+                  "path": "src\\app\\pages\\settings",
+                  "name": "settings",
+                  "children": [
+                    {
+                      "path": "src\\app\\pages\\settings\\page.tsx",
+                      "name": "page.tsx"
+                    },
+                    {
+                      "path": "src\\app\\pages\\settings\\_components",
+                      "name": "_components",
+                      "children": [
+                        {
+                          "path": "src\\app\\pages\\settings\\_components\\personal-info.tsx",
+                          "name": "personal-info.tsx"
+                        },
+                        {
+                          "path": "src\\app\\pages\\settings\\_components\\upload-photo.tsx",
+                          "name": "upload-photo.tsx"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\profile",
+              "name": "profile",
+              "children": [
+                {
+                  "path": "src\\app\\profile\\layout.tsx",
+                  "name": "layout.tsx"
+                },
+                {
+                  "path": "src\\app\\profile\\page.tsx",
+                  "name": "page.tsx"
+                },
+                {
+                  "path": "src\\app\\profile\\_components",
+                  "name": "_components",
+                  "children": [
+                    {
+                      "path": "src\\app\\profile\\_components\\icons.tsx",
+                      "name": "icons.tsx"
+                    },
+                    {
+                      "path": "src\\app\\profile\\_components\\social-accounts.tsx",
+                      "name": "social-accounts.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\providers.tsx",
+              "name": "providers.tsx"
+            },
+            {
+              "path": "src\\app\\tables",
+              "name": "tables",
+              "children": [
+                {
+                  "path": "src\\app\\tables\\page.tsx",
+                  "name": "page.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\app\\ui-elements",
+              "name": "ui-elements",
+              "children": [
+                {
+                  "path": "src\\app\\ui-elements\\alerts",
+                  "name": "alerts",
+                  "children": [
+                    {
+                      "path": "src\\app\\ui-elements\\alerts\\page.tsx",
+                      "name": "page.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\app\\ui-elements\\buttons",
+                  "name": "buttons",
+                  "children": [
+                    {
+                      "path": "src\\app\\ui-elements\\buttons\\page.tsx",
+                      "name": "page.tsx"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "src\\assets",
+          "name": "assets",
+          "children": [
+            {
+              "path": "src\\assets\\icons.tsx",
+              "name": "icons.tsx"
+            },
+            {
+              "path": "src\\assets\\logos",
+              "name": "logos",
+              "children": [
+                {
+                  "path": "src\\assets\\logos\\dark.svg",
+                  "name": "dark.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\facebook.svg",
+                  "name": "facebook.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\github.svg",
+                  "name": "github.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\google.svg",
+                  "name": "google.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\index.ts",
+                  "name": "index.ts"
+                },
+                {
+                  "path": "src\\assets\\logos\\main.svg",
+                  "name": "main.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\vimeo.svg",
+                  "name": "vimeo.svg"
+                },
+                {
+                  "path": "src\\assets\\logos\\x.svg",
+                  "name": "x.svg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "src\\components",
+          "name": "components",
+          "children": [
+            {
+              "path": "src\\components\\Auth",
+              "name": "Auth",
+              "children": [
+                {
+                  "path": "src\\components\\Auth\\GoogleSigninButton.tsx",
+                  "name": "GoogleSigninButton.tsx"
+                },
+                {
+                  "path": "src\\components\\Auth\\Signin",
+                  "name": "Signin",
+                  "children": [
+                    {
+                      "path": "src\\components\\Auth\\Signin\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Auth\\SigninWithPassword.tsx",
+                  "name": "SigninWithPassword.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\Breadcrumbs",
+              "name": "Breadcrumbs",
+              "children": [
+                {
+                  "path": "src\\components\\Breadcrumbs\\Breadcrumb.tsx",
+                  "name": "Breadcrumb.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\CalenderBox",
+              "name": "CalenderBox",
+              "children": [
+                {
+                  "path": "src\\components\\CalenderBox\\index.tsx",
+                  "name": "index.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\Charts",
+              "name": "Charts",
+              "children": [
+                {
+                  "path": "src\\components\\Charts\\campaign-visitors",
+                  "name": "campaign-visitors",
+                  "children": [
+                    {
+                      "path": "src\\components\\Charts\\campaign-visitors\\chart.tsx",
+                      "name": "chart.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Charts\\campaign-visitors\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Charts\\payments-overview",
+                  "name": "payments-overview",
+                  "children": [
+                    {
+                      "path": "src\\components\\Charts\\payments-overview\\chart.tsx",
+                      "name": "chart.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Charts\\payments-overview\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Charts\\used-devices",
+                  "name": "used-devices",
+                  "children": [
+                    {
+                      "path": "src\\components\\Charts\\used-devices\\chart.tsx",
+                      "name": "chart.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Charts\\used-devices\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Charts\\weeks-profit",
+                  "name": "weeks-profit",
+                  "children": [
+                    {
+                      "path": "src\\components\\Charts\\weeks-profit\\chart.tsx",
+                      "name": "chart.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Charts\\weeks-profit\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\FormElements",
+              "name": "FormElements",
+              "children": [
+                {
+                  "path": "src\\components\\FormElements\\checkbox.tsx",
+                  "name": "checkbox.tsx"
+                },
+                {
+                  "path": "src\\components\\FormElements\\Checkboxes",
+                  "name": "Checkboxes",
+                  "children": [
+                    {
+                      "path": "src\\components\\FormElements\\Checkboxes\\CheckboxFive.tsx",
+                      "name": "CheckboxFive.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Checkboxes\\CheckboxFour.tsx",
+                      "name": "CheckboxFour.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Checkboxes\\CheckboxOne.tsx",
+                      "name": "CheckboxOne.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Checkboxes\\CheckboxThree.tsx",
+                      "name": "CheckboxThree.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Checkboxes\\CheckboxTwo.tsx",
+                      "name": "CheckboxTwo.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\FormElements\\DatePicker",
+                  "name": "DatePicker",
+                  "children": [
+                    {
+                      "path": "src\\components\\FormElements\\DatePicker\\DatePickerOne.tsx",
+                      "name": "DatePickerOne.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\DatePicker\\DatePickerTwo.tsx",
+                      "name": "DatePickerTwo.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\FormElements\\InputGroup",
+                  "name": "InputGroup",
+                  "children": [
+                    {
+                      "path": "src\\components\\FormElements\\InputGroup\\index.tsx",
+                      "name": "index.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\InputGroup\\text-area.tsx",
+                      "name": "text-area.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\FormElements\\MultiSelect.tsx",
+                  "name": "MultiSelect.tsx"
+                },
+                {
+                  "path": "src\\components\\FormElements\\radio.tsx",
+                  "name": "radio.tsx"
+                },
+                {
+                  "path": "src\\components\\FormElements\\select.tsx",
+                  "name": "select.tsx"
+                },
+                {
+                  "path": "src\\components\\FormElements\\switch.tsx",
+                  "name": "switch.tsx"
+                },
+                {
+                  "path": "src\\components\\FormElements\\Switchers",
+                  "name": "Switchers",
+                  "children": [
+                    {
+                      "path": "src\\components\\FormElements\\Switchers\\SwitcherFour.tsx",
+                      "name": "SwitcherFour.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Switchers\\SwitcherOne.tsx",
+                      "name": "SwitcherOne.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Switchers\\SwitcherThree.tsx",
+                      "name": "SwitcherThree.tsx"
+                    },
+                    {
+                      "path": "src\\components\\FormElements\\Switchers\\SwitcherTwo.tsx",
+                      "name": "SwitcherTwo.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\Layouts",
+              "name": "Layouts",
+              "children": [
+                {
+                  "path": "src\\components\\Layouts\\header",
+                  "name": "header",
+                  "children": [
+                    {
+                      "path": "src\\components\\Layouts\\header\\icons.tsx",
+                      "name": "icons.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\header\\index.tsx",
+                      "name": "index.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\header\\notification",
+                      "name": "notification",
+                      "children": [
+                        {
+                          "path": "src\\components\\Layouts\\header\\notification\\icons.tsx",
+                          "name": "icons.tsx"
+                        },
+                        {
+                          "path": "src\\components\\Layouts\\header\\notification\\index.tsx",
+                          "name": "index.tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\header\\theme-toggle",
+                      "name": "theme-toggle",
+                      "children": [
+                        {
+                          "path": "src\\components\\Layouts\\header\\theme-toggle\\icons.tsx",
+                          "name": "icons.tsx"
+                        },
+                        {
+                          "path": "src\\components\\Layouts\\header\\theme-toggle\\index.tsx",
+                          "name": "index.tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\header\\user-info",
+                      "name": "user-info",
+                      "children": [
+                        {
+                          "path": "src\\components\\Layouts\\header\\user-info\\icons.tsx",
+                          "name": "icons.tsx"
+                        },
+                        {
+                          "path": "src\\components\\Layouts\\header\\user-info\\index.tsx",
+                          "name": "index.tsx"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Layouts\\showcase-section.tsx",
+                  "name": "showcase-section.tsx"
+                },
+                {
+                  "path": "src\\components\\Layouts\\sidebar",
+                  "name": "sidebar",
+                  "children": [
+                    {
+                      "path": "src\\components\\Layouts\\sidebar\\data",
+                      "name": "data",
+                      "children": [
+                        {
+                          "path": "src\\components\\Layouts\\sidebar\\data\\index.ts",
+                          "name": "index.ts"
+                        },
+                        {
+                          "path": "src\\components\\Layouts\\sidebar\\data\\ui-elements-list.ts",
+                          "name": "ui-elements-list.ts"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\sidebar\\icons.tsx",
+                      "name": "icons.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\sidebar\\index.tsx",
+                      "name": "index.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\sidebar\\menu-item.tsx",
+                      "name": "menu-item.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Layouts\\sidebar\\sidebar-context.tsx",
+                      "name": "sidebar-context.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\logo.tsx",
+              "name": "logo.tsx"
+            },
+            {
+              "path": "src\\components\\period-picker.tsx",
+              "name": "period-picker.tsx"
+            },
+            {
+              "path": "src\\components\\Tables",
+              "name": "Tables",
+              "children": [
+                {
+                  "path": "src\\components\\Tables\\fetch.ts",
+                  "name": "fetch.ts"
+                },
+                {
+                  "path": "src\\components\\Tables\\icons.tsx",
+                  "name": "icons.tsx"
+                },
+                {
+                  "path": "src\\components\\Tables\\invoice-table.tsx",
+                  "name": "invoice-table.tsx"
+                },
+                {
+                  "path": "src\\components\\Tables\\top-channels",
+                  "name": "top-channels",
+                  "children": [
+                    {
+                      "path": "src\\components\\Tables\\top-channels\\index.tsx",
+                      "name": "index.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Tables\\top-channels\\skeleton.tsx",
+                      "name": "skeleton.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\Tables\\top-products",
+                  "name": "top-products",
+                  "children": [
+                    {
+                      "path": "src\\components\\Tables\\top-products\\index.tsx",
+                      "name": "index.tsx"
+                    },
+                    {
+                      "path": "src\\components\\Tables\\top-products\\skeleton.tsx",
+                      "name": "skeleton.tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\ui",
+              "name": "ui",
+              "children": [
+                {
+                  "path": "src\\components\\ui\\dropdown.tsx",
+                  "name": "dropdown.tsx"
+                },
+                {
+                  "path": "src\\components\\ui\\skeleton.tsx",
+                  "name": "skeleton.tsx"
+                },
+                {
+                  "path": "src\\components\\ui\\table.tsx",
+                  "name": "table.tsx"
+                }
+              ]
+            },
+            {
+              "path": "src\\components\\ui-elements",
+              "name": "ui-elements",
+              "children": [
+                {
+                  "path": "src\\components\\ui-elements\\alert",
+                  "name": "alert",
+                  "children": [
+                    {
+                      "path": "src\\components\\ui-elements\\alert\\icons.tsx",
+                      "name": "icons.tsx"
+                    },
+                    {
+                      "path": "src\\components\\ui-elements\\alert\\index.tsx",
+                      "name": "index.tsx"
+                    }
+                  ]
+                },
+                {
+                  "path": "src\\components\\ui-elements\\button.tsx",
+                  "name": "button.tsx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "src\\css",
+          "name": "css",
+          "children": [
+            {
+              "path": "src\\css\\satoshi.css",
+              "name": "satoshi.css"
+            },
+            {
+              "path": "src\\css\\style.css",
+              "name": "style.css"
+            }
+          ]
+        },
+        {
+          "path": "src\\fonts",
+          "name": "fonts",
+          "children": [
+            {
+              "path": "src\\fonts\\Satoshi-Black.eot",
+              "name": "Satoshi-Black.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Black.ttf",
+              "name": "Satoshi-Black.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Black.woff",
+              "name": "Satoshi-Black.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Black.woff2",
+              "name": "Satoshi-Black.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BlackItalic.eot",
+              "name": "Satoshi-BlackItalic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BlackItalic.ttf",
+              "name": "Satoshi-BlackItalic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BlackItalic.woff",
+              "name": "Satoshi-BlackItalic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BlackItalic.woff2",
+              "name": "Satoshi-BlackItalic.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Bold.eot",
+              "name": "Satoshi-Bold.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Bold.ttf",
+              "name": "Satoshi-Bold.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Bold.woff",
+              "name": "Satoshi-Bold.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Bold.woff2",
+              "name": "Satoshi-Bold.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BoldItalic.eot",
+              "name": "Satoshi-BoldItalic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BoldItalic.ttf",
+              "name": "Satoshi-BoldItalic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BoldItalic.woff",
+              "name": "Satoshi-BoldItalic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-BoldItalic.woff2",
+              "name": "Satoshi-BoldItalic.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Italic.eot",
+              "name": "Satoshi-Italic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Italic.ttf",
+              "name": "Satoshi-Italic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Italic.woff",
+              "name": "Satoshi-Italic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Italic.woff2",
+              "name": "Satoshi-Italic.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Light.eot",
+              "name": "Satoshi-Light.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Light.ttf",
+              "name": "Satoshi-Light.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Light.woff",
+              "name": "Satoshi-Light.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Light.woff2",
+              "name": "Satoshi-Light.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-LightItalic.eot",
+              "name": "Satoshi-LightItalic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-LightItalic.ttf",
+              "name": "Satoshi-LightItalic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-LightItalic.woff",
+              "name": "Satoshi-LightItalic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-LightItalic.woff2",
+              "name": "Satoshi-LightItalic.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Medium.eot",
+              "name": "Satoshi-Medium.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Medium.ttf",
+              "name": "Satoshi-Medium.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Medium.woff",
+              "name": "Satoshi-Medium.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Medium.woff2",
+              "name": "Satoshi-Medium.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-MediumItalic.eot",
+              "name": "Satoshi-MediumItalic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-MediumItalic.ttf",
+              "name": "Satoshi-MediumItalic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-MediumItalic.woff",
+              "name": "Satoshi-MediumItalic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-MediumItalic.woff2",
+              "name": "Satoshi-MediumItalic.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Regular.eot",
+              "name": "Satoshi-Regular.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Regular.ttf",
+              "name": "Satoshi-Regular.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Regular.woff",
+              "name": "Satoshi-Regular.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Regular.woff2",
+              "name": "Satoshi-Regular.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Variable.eot",
+              "name": "Satoshi-Variable.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Variable.ttf",
+              "name": "Satoshi-Variable.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Variable.woff",
+              "name": "Satoshi-Variable.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-Variable.woff2",
+              "name": "Satoshi-Variable.woff2"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-VariableItalic.eot",
+              "name": "Satoshi-VariableItalic.eot"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-VariableItalic.ttf",
+              "name": "Satoshi-VariableItalic.ttf"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-VariableItalic.woff",
+              "name": "Satoshi-VariableItalic.woff"
+            },
+            {
+              "path": "src\\fonts\\Satoshi-VariableItalic.woff2",
+              "name": "Satoshi-VariableItalic.woff2"
+            }
+          ]
+        },
+        {
+          "path": "src\\hooks",
+          "name": "hooks",
+          "children": [
+            {
+              "path": "src\\hooks\\use-click-outside.ts",
+              "name": "use-click-outside.ts"
+            },
+            {
+              "path": "src\\hooks\\use-mobile.ts",
+              "name": "use-mobile.ts"
+            }
+          ]
+        },
+        {
+          "path": "src\\js",
+          "name": "js",
+          "children": [
+            {
+              "path": "src\\js\\us-aea-en.js",
+              "name": "us-aea-en.js"
+            }
+          ]
+        },
+        {
+          "path": "src\\lib",
+          "name": "lib",
+          "children": [
+            {
+              "path": "src\\lib\\format-message-time.ts",
+              "name": "format-message-time.ts"
+            },
+            {
+              "path": "src\\lib\\format-number.ts",
+              "name": "format-number.ts"
+            },
+            {
+              "path": "src\\lib\\utils.ts",
+              "name": "utils.ts"
+            }
+          ]
+        },
+        {
+          "path": "src\\services",
+          "name": "services",
+          "children": [
+            {
+              "path": "src\\services\\charts.services.ts",
+              "name": "charts.services.ts"
+            }
+          ]
+        },
+        {
+          "path": "src\\types",
+          "name": "types",
+          "children": [
+            {
+              "path": "src\\types\\icon-props.ts",
+              "name": "icon-props.ts"
+            },
+            {
+              "path": "src\\types\\set-state-action-type.ts",
+              "name": "set-state-action-type.ts"
+            }
+          ]
+        },
+        {
+          "path": "src\\utils",
+          "name": "utils",
+          "children": [
+            {
+              "path": "src\\utils\\timeframe-extractor.ts",
+              "name": "timeframe-extractor.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "structure.json",
+      "name": "structure.json"
+    },
+    {
+      "path": "structure.txt",
+      "name": "structure.txt"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "name": "tailwind.config.ts"
+    },
+    {
+      "path": "tsconfig.json",
+      "name": "tsconfig.json"
+    }
+  ]
+}
