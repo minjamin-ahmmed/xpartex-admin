@@ -57,6 +57,9 @@ const VendorTable: React.FC = () => {
           <thead className="sticky top-0 z-10 bg-gray-50 dark:bg-gray-800">
             <tr className="text-center uppercase text-gray-600 dark:text-gray-300 [&>th]:text-center">
               <th className="min-w-[100px] border-b border-gray-200 px-4 py-3 !text-left dark:border-gray-700">
+                SL No
+              </th>
+              <th className="min-w-[100px] border-b border-gray-200 px-4 py-3 !text-left dark:border-gray-700">
                 Vendor ID
               </th>
               <th className="min-w-[180px] border-b border-gray-200 px-4 py-3 !text-left dark:border-gray-700">
@@ -87,6 +90,9 @@ const VendorTable: React.FC = () => {
                     : "bg-gray-50 dark:bg-gray-800"
                 } hover:bg-gray-100 dark:hover:bg-gray-700`}
               >
+                <td className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
+                  1
+                </td>
                 <td className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
                   {vendor.id}
                 </td>

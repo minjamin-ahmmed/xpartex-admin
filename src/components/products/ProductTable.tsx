@@ -2,7 +2,7 @@
 
 import { SquarePen, Trash } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useMemo, useState } from "react";
 
 interface Product {
   id: string;
@@ -11,7 +11,7 @@ interface Product {
   price: number;
   stock: number;
   status: "available" | "out_of_stock" | "discontinued";
-  createdAt: string; 
+  createdAt: string;
 }
 
 const products: Product[] = [
@@ -81,6 +81,29 @@ const products: Product[] = [
 ];
 
 const ProductTable: React.FC = () => {
+  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  const categories = useMemo(() => {
+    const cats = new Set(products.map((p) => p.category));
+    return ["all", ...cats];
+  }, [products]);
+
+  const filteredProducts = useMemo(() => {
+    return products.filter((product) => {
+      const matchesSearch = product.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+      const matchesCategory =
+        selectedCategory === "all" || product.category === selectedCategory;
+      return matchesSearch && matchesCategory;
+    });
+  }, [products, searchTerm, selectedCategory]);
+
+  const totalPrice = useMemo(() => {
+    return products.reduce((acc, product) => acc + product.price, 0);
+  }, [products]);
+
   return (
     <div className="overflow-x-auto rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-dark">
       <div className="mb-6 flex items-center justify-between">
@@ -95,9 +118,37 @@ const ProductTable: React.FC = () => {
           </Link>
         </div>
       </div>
-      <table className="min-w-full border-collapse border border-gray-200 dark:border-gray-700">
+
+      {/* Search and Filter Section */}
+      <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full rounded border border-gray-300 px-4 py-2 text-gray-900 placeholder-gray-400 focus:border-primary focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 sm:w-64"
+        />
+
+        <select
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
+          className="w-full rounded border border-gray-300 bg-white px-4 py-2 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white sm:w-48"
+        >
+          {categories.map((cat) => (
+            <option key={cat} value={cat}>
+              {cat === "all" ? "All Categories" : cat}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* Table */}
+      <table className="min-w-full border-collapse overflow-x-scroll border border-gray-200 dark:border-gray-700">
         <thead className="sticky top-0 bg-gray-50 uppercase text-gray-600 dark:bg-gray-800 dark:text-gray-300">
           <tr>
+            <th className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
+              SL No
+            </th>
             <th className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
               Product ID
             </th>
@@ -127,7 +178,7 @@ const ProductTable: React.FC = () => {
         </thead>
 
         <tbody>
-          {products.map((product, idx) => (
+          {filteredProducts.map((product, idx) => (
             <tr
               key={product.id}
               className={`text-base font-medium text-dark transition-colors duration-300 dark:text-white ${
@@ -136,6 +187,9 @@ const ProductTable: React.FC = () => {
                   : "bg-gray-50 dark:bg-gray-800"
               } hover:bg-gray-100 dark:hover:bg-gray-700`}
             >
+              <td className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
+                1
+              </td>
               <td className="border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
                 {product.id}
               </td>
@@ -188,6 +242,9 @@ const ProductTable: React.FC = () => {
                   <span className="inline-block rounded-full bg-blue-100 px-3 py-1 text-blue-800 dark:bg-blue-900 dark:text-blue-400">
                     {products.length}
                   </span>
+                  <p className="mt-1 italic text-gray-500 dark:text-gray-400">
+                    Total Price: ${totalPrice.toFixed(2)}
+                  </p>
                   <p className="mt-1 text-xs italic text-gray-500 dark:text-gray-400">
                     Last updated: {new Date().toLocaleString()}
                   </p>
