@@ -74,6 +74,24 @@ export const NAV_DATA = [
         icon: Icons.User,
         items: [],
       },
+      {
+        title: "Jobs",
+        url: "/jobs",
+        icon: Icons.User,
+        items: [],
+      },
+      {
+        title: "News",
+        url: "/news",
+        icon: Icons.User,
+        items: [],
+      },
+      {
+        title: "Freelancers",
+        url: "/freelancers",
+        icon: Icons.User,
+        items: [],
+      },
     ],
   },
   {
