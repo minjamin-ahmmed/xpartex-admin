@@ -11,7 +11,7 @@ interface Product {
   price: number;
   stock: number;
   status: "available" | "out_of_stock" | "discontinued";
-  createdAt: string; // ISO date string
+  createdAt: string; 
 }
 
 const products: Product[] = [
@@ -168,16 +168,10 @@ const ProductTable: React.FC = () => {
                 {new Date(product.createdAt).toLocaleDateString()}
               </td>
               <td className="flex items-center justify-center gap-3 border-b border-gray-200 px-4 py-3 text-left dark:border-gray-700">
-                <button
-                  //   aria-label={`Edit vendor ${vendor.name}`}
-                  className="hover:text-primary-dark text-primary transition-colors"
-                >
+                <button className="hover:text-primary-dark text-primary transition-colors">
                   <SquarePen size={20} />
                 </button>
-                <button
-                  // aria-label={`Delete vendor ${vendor.name}`}
-                  className="text-red-600 transition-colors hover:text-red-800"
-                >
+                <button className="text-red-600 transition-colors hover:text-red-800">
                   <Trash size={20} />
                 </button>
               </td>
